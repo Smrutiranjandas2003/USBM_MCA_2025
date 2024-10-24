@@ -27,6 +27,7 @@
 let num = 432.1139;
 console.log(Math.floor(num));//432
 
+
 let start = 1;
 let end = 100;
 totalnum = (start + end)-1;
