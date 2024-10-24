@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinking Text</title>
+    <style>
+        body{
+            background-color: aqua;
+            text-align: center;
+            padding: 100px;
+        }
+        #blink {
+            font-size: 24px;
+            font-weight: bold;
+            color: rgb(233, 37, 37);
+        }
+    </style>
+</head>
+<body>
+
+<div id="blink">MY NAME IS BENNI.</div>
+
+<script>
+    const textElement = document.getElementById('blink');
+    let Visible = true;
+
+    setInterval(() => {
+        Visible = !Visible;
+        textElement.style.display = Visible ? 'block' : 'none';
+    }, 500);
+</script>
+
+</body>
+</html>
