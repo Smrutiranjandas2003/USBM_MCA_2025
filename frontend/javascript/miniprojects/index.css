@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+h1{
+    font-size: 48px;
+    text-align: center;
+    color: blue;
+    background-color: rgb(85, 255, 0);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+input{
+    height: 30px;
+    padding: 10px;
+    width: 180px;
+    background-color: antiquewhite;
+    color: rgb(1, 18, 18);
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(173, 216, 230);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
