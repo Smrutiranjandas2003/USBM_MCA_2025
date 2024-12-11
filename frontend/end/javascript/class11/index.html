@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+    <li>Home</li>
+    <li>About</li>
+    <li>Service</li>
+    <li>Login</li>
+</nav>
+
+<main>
+    
+    <h2>Sign up form</h2>
+    <form action="">
+    <div>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" >
+        <br><br>
+        <label for="password">Password:</label> 
+        <input type="password" id="password" autocomplete="current-password">
+
+        <br><br>
+        
+        <button class="btn">Sign Up</button>
+        <br><br>
+        <p id="error-message"></p>
+    </div>
+    </form>
+
+    <section id="loginform" style="display: none;">
+    <form action="">
+      <h1>LOG IN UP</h1><br><br>
+      <label for="username">Name or Email:</label>
+      <input type="text" id="nameone"><br><br>
+      <label for="password"> Password</label>
+      <input type="password" id="passwordone" autocomplete="current-password"><br><br>
+  <button id="log">Login</button>
+  </form>
+</section>
+
+</main>
+<script src="index.js"></script>
+</body>
+</html>
